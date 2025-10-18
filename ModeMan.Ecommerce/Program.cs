@@ -68,6 +68,11 @@ app.UseAuthorization();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
+    name: "shop",
+    pattern: "shop/{id?}",
+    defaults: new { controller = "Product", action = "Index"});
+
+app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}");
 
