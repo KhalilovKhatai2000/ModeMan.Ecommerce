@@ -9139,6 +9139,88 @@
       ]
     },
     {
+      "Route": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "AssetFile": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Oct 2025 03:36:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
+        }
+      ]
+    },
+    {
+      "Route": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.u4rpsw1ojb.jpg",
+      "AssetFile": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Oct 2025 03:36:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4rpsw1ojb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
+        },
+        {
+          "Name": "label",
+          "Value": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg"
+        }
+      ]
+    },
+    {
       "Route": "ModeMan/img/footer-logo.9b0ef8a6pf.png",
       "AssetFile": "ModeMan/img/footer-logo.png",
       "Selectors": [],

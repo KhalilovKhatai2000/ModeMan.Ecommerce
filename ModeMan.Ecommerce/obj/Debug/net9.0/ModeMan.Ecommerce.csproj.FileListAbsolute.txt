@@ -672,3 +672,4 @@ C:\Users\Xetai\Desktop\ConsolApplicationTekrar\ModeMan.Ecommerce\ModeMan.Ecommer
 C:\Users\Xetai\Desktop\ConsolApplicationTekrar\ModeMan.Ecommerce\ModeMan.Ecommerce\obj\Debug\net9.0\ModeMan.Ecommerce.genruntimeconfig.cache
 C:\Users\Xetai\Desktop\ConsolApplicationTekrar\ModeMan.Ecommerce\ModeMan.Ecommerce\obj\Debug\net9.0\ref\ModeMan.Ecommerce.dll
 C:\Users\Xetai\Desktop\ConsolApplicationTekrar\ModeMan.Ecommerce\ModeMan.Ecommerce\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Xetai\Desktop\ConsolApplicationTekrar\ModeMan.Ecommerce\ModeMan.Ecommerce\obj\Debug\net9.0\ModeMan.Ecommerce.sourcelink.json

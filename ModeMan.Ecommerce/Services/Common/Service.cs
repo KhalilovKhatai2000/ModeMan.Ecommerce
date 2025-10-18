@@ -7,7 +7,7 @@ namespace ModeMan.Ecommerce.Services.Common
 {
     public class Service<T> : IService<T> where T : class, new()
     {
-        private readonly ModeManDbContext _context;
+        protected readonly ModeManDbContext _context;
         private readonly DbSet<T> _dbSet;
 
         public Service(ModeManDbContext context)

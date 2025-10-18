@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5WJAn9f/IIrbRcyJn1Z/cFUWFemKCFJWO5OqQ+vniGo=",
+  "Hash": "SqTmW75P3rqgZrb963WqYWO/QQVzI6+HNlVPyt7B5t4=",
   "Source": "ModeMan.Ecommerce",
   "BasePath": "_content/ModeMan.Ecommerce",
   "Mode": "Default",
@@ -4593,6 +4593,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ModeMan\\img\\clients\\client-8.png"
+    },
+    {
+      "Identity": "C:\\Users\\Xetai\\Desktop\\ConsolApplicationTekrar\\ModeMan.Ecommerce\\ModeMan.Ecommerce\\wwwroot\\ModeMan\\img\\ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "SourceId": "ModeMan.Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Xetai\\Desktop\\ConsolApplicationTekrar\\ModeMan.Ecommerce\\ModeMan.Ecommerce\\wwwroot\\",
+      "BasePath": "_content/ModeMan.Ecommerce",
+      "RelativePath": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u4rpsw1ojb",
+      "Integrity": "Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ModeMan\\img\\ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg"
     },
     {
       "Identity": "C:\\Users\\Xetai\\Desktop\\ConsolApplicationTekrar\\ModeMan.Ecommerce\\ModeMan.Ecommerce\\wwwroot\\ModeMan\\img\\footer-logo.png",
@@ -33817,6 +33838,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JVLSgKef/WTPkqmhoCSe3Ny3lUo8JVV5dgVgMn0UcCs="
+        }
+      ]
+    },
+    {
+      "Route": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "AssetFile": "C:\\Users\\Xetai\\Desktop\\ConsolApplicationTekrar\\ModeMan.Ecommerce\\ModeMan.Ecommerce\\wwwroot\\ModeMan\\img\\ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Oct 2025 03:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
+        }
+      ]
+    },
+    {
+      "Route": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.u4rpsw1ojb.jpg",
+      "AssetFile": "C:\\Users\\Xetai\\Desktop\\ConsolApplicationTekrar\\ModeMan.Ecommerce\\ModeMan.Ecommerce\\wwwroot\\ModeMan\\img\\ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Oct 2025 03:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4rpsw1ojb"
+        },
+        {
+          "Name": "label",
+          "Value": "ModeMan/img/ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
         }
       ]
     },

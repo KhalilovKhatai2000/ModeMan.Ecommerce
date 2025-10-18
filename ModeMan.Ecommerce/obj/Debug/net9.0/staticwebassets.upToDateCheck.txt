@@ -212,6 +212,7 @@ wwwroot\ModeMan\img\clients\client-5.png
 wwwroot\ModeMan\img\clients\client-6.png
 wwwroot\ModeMan\img\clients\client-7.png
 wwwroot\ModeMan\img\clients\client-8.png
+wwwroot\ModeMan\img\ea5cf394-af3a-49f7-a63c-e6ce1ef7e207.jpg
 wwwroot\ModeMan\img\footer-logo.png
 wwwroot\ModeMan\img\hero\hero-1.jpg
 wwwroot\ModeMan\img\hero\hero-2.jpg

@@ -5,5 +5,7 @@ namespace ModeMan.Ecommerce.Services.Abstract
 {
     public interface ICartService : IService<Cart>
     {
+        Task<string> AddToCartAsync(Guid userId, Guid productId);
+        Task<Cart> GetCartAsync(Guid userId);
     }
 }

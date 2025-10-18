@@ -18,16 +18,18 @@ namespace ModeMan.Ecommerce.ViewComponents
         {
             if (type == "HotSales")
             {
-                var bestSellers = ""; /*await _context.Products.ToListAsync();*/
+                var bestSellers = await _context.Products
+                    .OrderByDescending(p => p.OrderItems.Count)
+                    .Take(8)
+                    .ToListAsync();
 
-                /*.OrderByDescending(p => p.OrderItems.Count)
-                .Take(8)*/
                 return View("HotSales", bestSellers);
             }
             else if (type == "NewArrivals")
             {
-                var newArrivals = ""; /*await _context.Products.ToListAsync();*/
-                /*.Take(4)*/
+                //var newArrivals = await _context.Products.Take(4).ToListAsync();
+                var newArrivals = await _context.Products.ToListAsync();
+
 
                 return View("NewArrivals", newArrivals);
             }
