@@ -3,7 +3,6 @@ using ModeMan.Ecommerce.Data;
 using ModeMan.Ecommerce.Entities;
 using ModeMan.Ecommerce.Services.Abstract;
 using ModeMan.Ecommerce.Services.Common;
-using SQLitePCL;
 
 namespace ModeMan.Ecommerce.Services.Concreete
 {
@@ -51,6 +50,22 @@ namespace ModeMan.Ecommerce.Services.Concreete
             await _context.SaveChangesAsync();
 
             return "";
+        }
+
+        public async Task UpdateCountAsync(Guid userId, Guid productId, int count)
+        {
+           var cart = await _context.Carts.FirstOrDefaultAsync(x => x.UserId == userId);
+
+            var cartItem = await _context.CartItems
+                .FirstOrDefaultAsync(ci => ci.ProductId == productId && ci.CartId == cart.Id);
+
+            if (cartItem != null)
+            {
+                cartItem.Count = count;
+            }
+
+            await _context.SaveChangesAsync();
+
         }
 
         public async Task<Cart> GetCartAsync(Guid userId)

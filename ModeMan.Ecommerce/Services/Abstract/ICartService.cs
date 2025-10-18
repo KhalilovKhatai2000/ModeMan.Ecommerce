@@ -7,5 +7,6 @@ namespace ModeMan.Ecommerce.Services.Abstract
     {
         Task<string> AddToCartAsync(Guid userId, Guid productId);
         Task<Cart> GetCartAsync(Guid userId);
+        Task UpdateCountAsync(Guid userId, Guid productId, int count);
     }
 }

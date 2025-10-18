@@ -21,7 +21,8 @@ namespace ModeMan.Ecommerce.Controllers
 
             var cart = await _cartService.GetCartAsync(userId);
 
-            ViewBag.TotalPrice = cart.Items.Select(ci => ci.TotalPrice * ci.Count);
+            ViewBag.TotalPrice = cart.Items.
+                Sum(ci => ci.TotalPrice);
 
             return View(cart);
         }
@@ -36,14 +37,23 @@ namespace ModeMan.Ecommerce.Controllers
             return RedirectToAction("Index");
         }
 
-        /*public async Task<IActionResult> GetCart()
+        [HttpPost]
+        public async Task<IActionResult> UpdateCount(Guid productId, int count)
         {
             Guid userId = Guid.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
 
-            var cart = await _cartService.GetCartAsync(userId);
-
+            await _cartService.UpdateCountAsync(userId, productId, count);
             return RedirectToAction("Index");
-        }*/
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Remove(Guid id)
+        {
+            var cart = await _cartService.GetByIdAsync(id);
+            _cartService.Delete(cart);
+            return RedirectToAction("Index");
+        }
 
     }
 }
